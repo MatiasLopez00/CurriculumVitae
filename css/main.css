@@ -1,0 +1,55 @@
+body header {
+  background-color: #e0e1dd;
+}
+body header .headerdiv {
+  text-align: center;
+  background-color: #e0e1dd;
+}
+body header .headerdiv .headerH1 {
+  margin: 4rem;
+  margin-top: 0%;
+  padding-top: 4rem;
+}
+body header .headerdiv .headerH2 {
+  margin: 1.5rem;
+  font-size: 0.6rem;
+}
+body header div {
+  width: 100%;
+  justify-content: center;
+}
+body header div .menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+body header div .menu li {
+  /*margin: 20px;*/
+  list-style: none;
+}
+body header div .menu li a {
+  text-decoration: none;
+  color: black;
+}
+body article {
+  text-align: center;
+}
+body article .aricleP {
+  font-size: 0.6rem;
+  margin-bottom: 2rem;
+}
+body article .Contacto {
+  border: solid black;
+  width: 45%;
+  margin-left: 0%;
+}
+body article .Contacto .locacion {
+  font-size: 0.6rem;
+}
+body article .Contacto .listaContacto li {
+  margin: 5px;
+  list-style: none;
+  font-size: 0.6rem;
+}
+
+/*# sourceMappingURL=main.css.map */
