@@ -1,1 +1,101 @@
-@import 'index.scss'
+body{
+    background-color: #f4f3ee;
+    header{
+
+        .headerdiv{
+
+            text-align: center;
+            /*background-color: #e0e1dd;*/
+            background: linear-gradient(to bottom, #bcb8b1, #c0c0c0);
+            .fotito{
+                img{
+                    border-radius: 100%;
+                    overflow: hidden;
+
+                }
+            }
+            .headerH1{
+                margin: 4rem;
+                margin-top: 0%;
+                padding-top: 4rem;
+                text-decoration: underline;
+            }
+            .headerH2{
+                margin: 1.5rem;
+                font-size: 0.6rem;
+            }
+        }
+
+        div{
+            width: 100%;
+            justify-content: center;
+            padding-bottom: 6px;
+        }
+    }
+    article{
+        text-align: center;
+        .sobremi{
+            font-weight: bold;
+
+        }
+        .aricleP{
+            font-size: 0.6rem;
+            margin-bottom: 2rem;
+            line-height: 1.5;
+        }
+        #Contenido1{
+                .Estudios{
+                    .Estudio{
+                        list-style: none;
+                        font-size: 1rem;
+                        line-height: 1.5;
+                    }
+                }
+        }
+        #Contenido2{
+            .saberes{
+                .saber{
+                    list-style: none;
+                    line-height: 1.5;
+                    font-size: 1rem;
+                }
+            }
+        }
+        #Contenido3{
+            .experiencia{
+                .experiencia1{
+                    list-style: none;
+                    line-height: 1.5;
+                    font-size: 1rem;
+                }
+            }
+            .experienciaContacto{
+                line-height: 1.5;
+            }
+        }
+    }
+    footer{
+        width: 100%;
+        #Contacto{
+            border: solid black;
+            width: 100%;
+            h3{
+               margin-left: 5%; 
+            }
+            .listaContacto{
+                display: flex;
+
+                
+                li{
+                    margin: 5px;
+                    list-style: none;
+                    font-size: 1rem;
+                    margin-left: 15%;
+
+                }
+
+            }
+       }
+    }
+}
+    
