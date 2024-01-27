@@ -73,5 +73,22 @@ body footer #Contacto .listaContacto li {
   font-size: 1rem;
   margin-left: 15%;
 }
+@media screen and (max-width: 768px) {
+  body header .headerdiv .fotito img {
+    width: 55%;
+    height: 55%;
+  }
+  body footer #Contacto {
+    border: solid black;
+    width: 100%;
+  }
+  body footer #Contacto .listaContacto {
+    display: block;
+  }
+  body footer #Contacto .listaContacto li {
+    list-style: none;
+    font-size: 1rem;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
